@@ -1,0 +1,5 @@
+model,threshold,accuracy,precision,recall,f1,roc_auc,pr_auc,TP,FN,FP,TN
+Dummy (selalu 'tidak late'),0.5,0.862,0.0,0.0,0.0,0.5,0.138,0,83,0,517
+LogReg (tanpa weighting),0.5,0.87,0.778,0.084,0.152,0.794,0.46,7,76,2,515
+LogReg (class_weight),0.63,0.872,0.547,0.422,0.476,0.794,0.469,35,48,29,488
+RandomForest (class_weight),0.45,0.848,0.453,0.47,0.462,0.79,0.465,39,44,47,470
