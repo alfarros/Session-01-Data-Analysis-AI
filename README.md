@@ -24,8 +24,3 @@ PYTHONPATH=src python src/03_mlp_pytorch.py   # deep learning (MLP)
 ```
 
 (Jalankan dari folder `Session-01-Data-Analysis-AI`. Di Windows PowerShell: `$env:PYTHONPATH="src"` dulu.)
-
-## Status verifikasi
-
-- `01` dan `02` sudah dijalankan; hasil di `results/baseline_results.csv`.
-- `03_mlp_pytorch.py`
